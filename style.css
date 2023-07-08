@@ -13,14 +13,14 @@
     object-fit: cover;
     opacity: 0.4;
     z-index: -1;
-    border-radius:5px;;
+    border-radius:5px;
 }
 
 .full_div {
     margin:10px;
     padding:10px;
     display:inline-block;
-    border-radius:5px;;
+    border-radius:5px;
     box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -webkit-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -moz-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
@@ -34,10 +34,8 @@
 
 .left_column {
     float:left;
-
     margin-right:5px;
     margin-bottom:5px;
-
     width:18%;
     height:24%;
 }
@@ -45,7 +43,7 @@
 .box_art {
     max-height: 100%;
     max-width: 100%;
-    border-radius:10px;;
+    border-radius:10px;
     border-style: solid;
     border-color: rgba(170,170,170,.3);
     border-width: 1px;
@@ -65,7 +63,7 @@
     line-height: calc(6.5px + ((.1vh + 1vw) / 2));
     height:24%;
     background-color:rgba(255, 255, 255, 0.55);
-    border-radius:5px;;
+    border-radius:5px;
     font-family: 'David Libre', serif;
     box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -webkit-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
@@ -79,25 +77,19 @@
 .right_column {
     float:right;
     display: flex;
-
     background-color:rgba(255, 255, 255, 0.55);
     border-radius:5px;
-    
     width:25%;
     height:18%;
-
     font-size:calc(6px + .6vh);
     line-height: calc(5px + .85vh);
     font-family: 'David Libre', serif;
-    
     justify-content: center;
     align-items: center;
     text-align:center;
-
     box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -webkit-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -moz-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
-    
 }
 
 .info_summary {
@@ -126,20 +118,17 @@
     border-color: rgba(170,170,170,.3);
     border-width: 1px;
 }
-
 .bottom_row_entry_right {
     width:25%;
     text-align: center;
     float:right;
-    border-radius:5px;;
+    border-radius:5px;
     padding-top:5px;
     padding-bottom:5px;
     background-color:rgba(255, 255, 255, 0.55);
-    
     box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -webkit-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -moz-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
-    
     border-style: solid;
     border-color: rgba(170,170,170,.3);
     border-width: 1px;
@@ -161,55 +150,42 @@ h2 {
 
 .weight_info {
     float:right;
-
     display: flex;
     align-items:center;
     justify-content:center;
     text-align:center;
-
     width: 25%;
     height:2.3%;
-
     margin-top:5px;
-
-    border-radius:5px;;
+    border-radius:5px;
     border-style: solid;
     border-color: rgba(170,170,170,.3);
     border-width: 1px;
     box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -webkit-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -moz-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
-    
     background-color:rgba(255, 255, 255, 0.55);
-
     font-size:calc(3.8px + ((.5vh + 1vw) / 2));
     font-family: 'David Libre', serif;
-    
 }
 
 .rating_info {
     float:right;
-
     display: flex;
     align-items:center;
     justify-content:center;
     text-align:center;
-
     width: 25%;
     height:2.3%;
-
     margin-top:7px;
-
-    border-radius:5px;;
+    border-radius:5px;
     border-style: solid;
     border-color: rgba(170,170,170,.3);
     border-width: 1px;
     box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -webkit-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
     -moz-box-shadow: 9px 9px 17px -1px rgba(0,0,0,0.32);
-    
     background-color:rgba(255, 255, 255, 0.55);
-
     font-size:calc(3.8px + ((.5vh + 1vw) / 2));
     font-family: 'David Libre', serif;
 }
