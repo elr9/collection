@@ -1,0 +1,9 @@
+output.html
+collection.xml
+game_xml/*.xml
+.vs
+.vscode
+.idea
+images/*.*
+!images/icon_duration.png
+!images/icon_players.png
