@@ -50,7 +50,10 @@
     border-color: rgba(170,170,170,.3);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 809px) {
+    .background {
+        /* Add your mobile styles here */
+    }
     .full_div {
         width: 90%;  /* adjust as needed */
         height: auto;  /* adjust as needed */
@@ -66,4 +69,3 @@
         font-size: 1em;  /* adjust as needed */
     }
 }
-
