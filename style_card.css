@@ -57,7 +57,7 @@
 .right_column {
     flex: 1 0 810px;
     display:relative;
-    float:right;
+    float:left;
     padding-top:5px;
     padding-left:3%;
     padding-right:3%;
