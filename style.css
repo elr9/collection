@@ -46,21 +46,7 @@
 }
 
 @media screen and (max-width: 809px) {
-    .background {
-        /* Add your mobile styles here */
-    }
-    .full_div {
-        width: 90%;  /* adjust as needed */
-        height: auto;  /* adjust as needed */
-        margin: 5%;  /* adjust as needed */
-        padding: 5%;  /* adjust as needed */
-    }
-    .box_art {
-        max-width: 100%;
-        height: auto;
-    }
-    .left_column {
-        width: 100%;  /* adjust as needed */
-        font-size: 1em;  /* adjust as needed */
-    }
+    /* No styles here */
+}
+
 }
