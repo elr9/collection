@@ -48,103 +48,22 @@
     box-shadow: 5px 5px 5px rgba(170,170,170,.3);
     border-style: solid;
     border-color: rgba(170,170,170,.3);
-    border-width: 1px;
-    float:left;
 }
 
-.right_column {
-    display:relative;
-    float:right;
-    padding-top:5px;
-    padding-left:3%;
-    padding-right:3%;
-    width:30%;
-    font-size:43%;
-    height:72%;
-    background-color:rgba(150,150,150,.3);
-    border-radius:10px;
-    box-shadow: 5px 5px 5px rgba(170,170,170,.3);
-    border-style: solid;
-    border-color: rgba(170,170,170,.3);
-    border-width: 1px;
-    text-align:center;
+@media screen and (max-width: 600px) {
+    .full_div {
+        width: 90%;  /* adjust as needed */
+        height: auto;  /* adjust as needed */
+        margin: 5%;  /* adjust as needed */
+        padding: 5%;  /* adjust as needed */
+    }
+    .box_art {
+        max-width: 100%;
+        height: auto;
+    }
+    .left_column {
+        width: 100%;  /* adjust as needed */
+        font-size: 1em;  /* adjust as needed */
+    }
 }
 
-.bottom_row {
-    clear:both;
-    padding:.1%;
-    width:100%;
-}
-
-.bottom_row_entry_left {
-    width:auto;
-    float:left;
-    font-size: 43%;
-}
-
-.bottom_row_entry_right {
-    font-size: 39%;
-    margin-top:5px;
-    text-align:center;
-    width:33%;
-    float:right;
-}
-
-hr {
-    margin-top: 5px;
-    margin-bottom: 1px;
-    color: rgba(170,170,170,.3);
-}
-
-.info_icon {
-    padding-top:3px;
-    height:7px;
-}
-
-.weight_info {
-    display:relative;
-    background-color:rgba(150,150,150,.3);
-    box-shadow: 5px 5px 5px rgba(170,170,170,.3);
-    width: 33%;
-    height:5%;
-    border-radius:5px;    
-    text-align:center;
-    margin-top:3px;
-    font-size: 45%;
-    border-style: solid;
-    border-color: rgba(170,170,170,.3);
-    border-width: 1px;
-    float:right;
-    padding-left:1.5%;
-    padding-right:1.5%;
-}
-
-.rating_info {
-    display:relative;
-    background-color:rgba(150,150,150,.3);
-    box-shadow: 5px 5px 5px rgba(170,170,170,.3);
-    width: 33%;
-    height:5%;
-    border-radius:5px;    
-    text-align:center;
-    margin-top:3px;
-    font-size: 45%;
-    border-style: solid;
-    border-color: rgba(170,170,170,.3);
-    border-width: 1px;
-    float:right;
-    padding-left:1.5%;
-    padding-right:1.5%;
-}
-
-ul {
-    display:inline-block;
-    list-style:none;
-    column-count: 4;
-    -moz-column-count: 4;
-    -webkit-column-count: 4;
-    font-size:8px;
-    padding:2%;
-    margin:2%;
-    width:92%;
-}
