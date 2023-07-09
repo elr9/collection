@@ -17,7 +17,8 @@
     margin-right:-5px;
     margin-top:-5px;
     padding:.5%;
-    display:inline-block;
+    display:flex;
+    flex_wrap:wrap;
     position:relative;
     height:32%;
     width:26%;
@@ -37,6 +38,7 @@
 }
 
 .left_column {
+    flex: 1 0 810px;
     padding-top:5px;
     padding-left:3%;
     padding-right:3%;
@@ -53,6 +55,7 @@
 }
 
 .right_column {
+    flex: 1 0 810px;
     display:relative;
     float:right;
     padding-top:5px;
