@@ -81,7 +81,7 @@
     border-radius: 5px;
     width: 18%;
     height: fit-content;
-    font-size: calc(6px + .6vh);
+    font-size: calc(6px + ((.1vh + 1vw) / 2));
     line-height: calc(5px + .85vh);
     font-family: 'David Libre', serif;
     justify-content: center;
