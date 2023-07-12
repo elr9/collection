@@ -55,12 +55,13 @@
 .description {
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
     margin-left: 5px;
     margin-bottom: 5px;
     float: left;
     width: 50.5%;
-    font-size: calc(7px + ((.1vh + 1vw) / 2));
-    line-height: calc(6.5px + ((.1vh + 1vw) / 2));
+    font-size: calc(10px + ((.1vh + 1vw) / 2));
+    line-height: calc(8px + ((.1vh + 1vw) / 2));
     height: 24%;
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 5px;
