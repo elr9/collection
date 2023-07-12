@@ -242,3 +242,10 @@
     padding: 0;
     font-size: calc(.00006103515625px + ((.5vh + 1vw) / 2));
 }
+
+@media (max-width: 810px) {
+    .right_column{
+        float: none;
+        width: fit-content
+    }
+}
