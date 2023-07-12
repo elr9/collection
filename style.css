@@ -75,7 +75,7 @@
 }
 
 .right_column {
-    float: center;
+    float: right;
     display: flex;
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 5px;
